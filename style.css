@@ -4,3 +4,166 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    width: 90%;
+    margin: 0 auto;
+}
+.navlist{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 40px;
+    margin-top: 3%;
+}
+.logo{
+    margin-top: 2.5%;
+}
+.search{
+    width: 30px;
+    height: 20px;
+    margin-top: -3%;
+}
+.navlist li{
+    font-size: large;
+}
+.design{
+   width: 40%;
+   margin-top: 10%;
+   margin-left: 5%;
+}
+.sign{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+}
+.design h1{
+    font-weight: 470;
+    font-size: 470%;
+    width: 401.65;
+    height: 246.2;
+}
+.design p{
+    line-height: 170%;
+    font-size: larger;
+    color: dimgray;
+    margin-top: 5%;
+    width: 80%;
+}
+.button{
+    width: 50%;
+    height: 10%;
+    border-color: #dfbea1;
+    margin-top: 5%;
+    font-size: large;
+   
+}
+.hero{
+    position: relative;
+    width: 70%;
+    
+    margin-top: 1.5%;
+}
+.hero img{
+   position: relative;
+    width: 100%;
+    height: 814px;
+    object-fit: cover;
+}
+.brands{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 0 auto;
+    margin-top: 7%;
+    margin-bottom: 3%;
+    width: 90%;
+    border-bottom: 1px solid#dfbea1;
+    padding-bottom: 7%;     
+}
+.brands img{
+     width:120px;
+}
+.stick{
+    width: 10px;
+    height: 84px;
+    background-color: #b46723;
+}
+.head{
+    display: flex;
+    gap: 25px;
+    margin-top: 25%;
+
+}
+.about{
+    font-weight: 470;
+    font-size: 300%;
+    width: 401.65;
+    height: 246.2;
+   
+}
+.sec2{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 4%;
+    
+}
+.well{
+    color: #b46723;
+    font-size: larger;
+    margin-top: 5%;
+}
+.image{
+    width: 690px;
+    height: 601.65px;
+    margin-top: 15%;
+}
+.par{
+    color: dimgray;
+    margin-top:4% ;
+    line-height: 260%;
+    font-size: large;
+}
+.btn{
+     width: 35%;
+    height: 7%;
+    border-color: #dfbea1;
+    margin-top: 5%;
+    font-size: large;   
+}
+.aboutus{
+    margin-left: 3%;
+}
+ .decor{
+    width: 690px;
+    height: 500px;
+    margin-top: 15%;
+ }
+ .subs{
+    width: 680px;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 3%;
+ }
+ .sub{
+    color: #b46723;
+    border-right: 1px solid #dfbea1;
+    opacity: 0.8;
+    margin-right: 2%;
+ }
+ .number{
+    list-style: none;
+    position: absolute;
+    right:5px;
+    bottom:20px ;
+ }
+ .number li{
+    font-size: 45px;
+    color: white;
+    margin-top: 3%;
+    
+
+ }
