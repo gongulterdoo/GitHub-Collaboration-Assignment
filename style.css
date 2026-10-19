@@ -863,3 +863,124 @@ body {
         bottom: 15px;
     }
 }
+.mirabel_header{
+    text-align: center;
+}
+.mira{
+    font-size: 50px;
+    margin-top: 40px;
+}
+.mirabel_header p{
+    margin-top: 20px;
+    color: #22211F;
+    margin-bottom: 40px;
+}
+.mirabel_image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    width: 98%;
+    margin: 0 auto;
+    gap: 20px;
+
+}
+.mirabel_image img{
+    width: 100%;
+}
+.gray{
+    color: gray;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.mirabel_image p{
+    font-size: 20px;
+}
+button{
+    background-color: transparent;
+    color: #333333;
+    border: 1px solid #c9b5a5;
+    padding: 20px 40px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 40px;
+    align-items: center;
+}
+.button_container{
+    text-align: center;
+}
+.contact_section{
+    background-color: #f1d5c1;
+    padding: 100px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+.contact_section h1{
+    font-size: 40px;
+    line-height: 1.8;
+}
+.contact_section p{
+    color: #22211F;
+}
+.contact_btn{
+    background-color: black;
+    color: white;
+    padding: 25px 45px;
+}
+.footer_container{
+    display: grid;
+    grid-template-columns: 2fr 0.8fr 1.2fr 1fr;
+    gap: 45px;
+    padding-bottom: 150px;
+    padding: 70px 0;
+    width: 90%;
+    margin: 0 auto;
+}
+.footer_about h1{
+    font-size: 50px;
+    line-height: 1.5;
+    border-left: 5px solid #B46723;
+    padding: 20px 25px;
+}
+.footer_about p{
+    color: #333333;
+    line-height: 2;
+}
+.footer_links p{
+    font-size: 25px;
+    line-height: 1.5;
+    color: gray;
+    margin-bottom: 20px;
+}
+.footer_links ul li {
+    list-style: none;
+    color: gray;
+    line-height: 2;
+}
+.footer_services p{
+    font-size: 25px;
+    line-height: 1.5;
+    color: gray;
+    margin-bottom: 20px;
+}
+.footer_services ul li{
+   list-style: none;
+    color: gray;
+    line-height: 2;   
+}
+.footer_contact p{
+    font-size: 20px;
+    line-height: 1.5;
+    color: gray;
+
+}
+.contact_text p{
+    margin-top: 2%;
+    color: #333333;
+}
+.bold{
+    font-weight: bold;
+}
